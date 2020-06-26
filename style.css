@@ -73,6 +73,10 @@ a {
     margin: 25px;
 }
 
+.footer {
+    text-align: center;
+}
+
 .text__input {
     color: white;
     margin-top: 50%;
