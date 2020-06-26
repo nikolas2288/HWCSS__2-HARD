@@ -74,8 +74,10 @@ a {
 }
 
 .footer {
-    padding: 20%;
-    text-align: center;
+    margin-top: 60px;
+}
+
+.text__input {
     color: white;
 }
 
