@@ -1,0 +1,26 @@
+-let nav = ['<img src="assets/img/Google.png" alt="">', '<img src="assets/img/Tweter.png" alt="">', '<img src="assets/img/Facebook.png" alt="">', '<img src="assets/img/Dribble.png" alt="">']
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="assets/css/style.css")
+        link(href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap", rel="stylesheet")
+    body
+        form(action="#" class="form")
+            a(href="#" class="form__logo")
+                img(src="assets/img/Logo.png", alt="")
+            h1.form__title login
+            input(class="form__input form__input--text" type="text" placeholder="Твой ник")
+            input(class="form__input form__input--password" type="password" placeholder="Твой пароль")
+            input(class="form__input--button" type="submit" value="Login")
+            h1.form__title We are social
+               nav: ul.wrapper__box
+                    each val in nav 
+                        li.box__colum--item: a(href="#" class="box__colum--link" target="_blank")!=val
+            .form__footer
+                p.form__footer--paragraf &#169 2014 - 
+                    a(href="#") kasper 
+                    |All Right Reserved
