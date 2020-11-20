@@ -1,10 +1,12 @@
+@import "./mixin";
+
+
 body {
     margin: 0;
     padding: 100px 0;   
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     background: #121115;
-    color: #ffffff;
     text-align: center;
     font-weight: 300;
 }
@@ -27,6 +29,9 @@ form {
         img{
             display: inline-block;
         }
+    }
+    input {
+        @include placeholder
     }
     .form__input{
         display: block;

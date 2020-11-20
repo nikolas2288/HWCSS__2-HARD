@@ -4,7 +4,7 @@ body {
 	box-sizing: border-box;
 	font-family: "Raleway", sans-serif;
 	background: #121115;
-	color: #ffffff;
+	color: #FFF;
 	text-align: center;
 	font-weight: 300;
 }
@@ -26,6 +26,15 @@ form {
 }
 form a img {
 	display: inline-block;
+}
+form input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+form input::-moz-placeholder {
+	color: #ffffff;
+}
+form input:-ms-input-placeholder {
+	color: #ffffff;
 }
 form .form__input {
 	display: block;
