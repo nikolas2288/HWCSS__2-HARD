@@ -9,6 +9,7 @@ body {
     background: #121115;
     text-align: center;
     font-weight: 300;
+    color: #ffffff;
 }
 
 a {
@@ -25,17 +26,16 @@ li {
 form {
     max-width: 300px;
     margin: 0 auto;
+
     a{
         img{
             display: inline-block;
         }
     }
-    input {
-        @include placeholder
-    }
+  
     .form__input{
         display: block;
-        background: none;
+        color: #ffffff;
         margin: 20px auto;
         text-align: center;
         border: 2px solid #3498db;
@@ -44,11 +44,13 @@ form {
         outline: none;
         border-radius: 24px;
         transition: 1s;
+        background:none;
         &:hover {
             width: 260px;
             border-color: #2ecc71;
-        }
+        } 
     }
+    
     .form__input--button {
         width: 200px;
         background: none;
@@ -66,6 +68,9 @@ form {
             max-width: 260px;
             background: #2ecc71;
         }
+    }
+    input {
+        @include placeholder
     }
 }
 

@@ -4,9 +4,9 @@ body {
 	box-sizing: border-box;
 	font-family: "Raleway", sans-serif;
 	background: #121115;
-	color: #FFF;
 	text-align: center;
 	font-weight: 300;
+	color: #ffffff;
 }
 
 a {
@@ -27,18 +27,9 @@ form {
 form a img {
 	display: inline-block;
 }
-form input::-webkit-input-placeholder {
-	color: #ffffff;
-}
-form input::-moz-placeholder {
-	color: #ffffff;
-}
-form input:-ms-input-placeholder {
-	color: #ffffff;
-}
 form .form__input {
 	display: block;
-	background: none;
+	color: #ffffff;
 	margin: 20px auto;
 	text-align: center;
 	border: 2px solid #3498db;
@@ -47,6 +38,7 @@ form .form__input {
 	outline: none;
 	border-radius: 24px;
 	transition: 1s;
+	background: none;
 }
 form .form__input:hover {
 	width: 260px;
@@ -69,6 +61,15 @@ form .form__input--button {
 form .form__input--button:hover {
 	max-width: 260px;
 	background: #2ecc71;
+}
+form input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+form input::-moz-placeholder {
+	color: #ffffff;
+}
+form input:-ms-input-placeholder {
+	color: #ffffff;
 }
 
 .wrapper__box {
